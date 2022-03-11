@@ -1,0 +1,19 @@
+@import 'maps.scss';
+
+// sizes
+$size-xs: map-get($sizes, xs);
+$size-sm: map-get($sizes, sm);
+$size-md: map-get($sizes, md);
+$size-lg: map-get($sizes, lg);
+
+// paddings
+$padding-xs: map-get($paddings, 'xs');
+$padding-sm: map-get($paddings, 'sm');
+$padding-md: map-get($paddings, 'md');
+$padding-lg: map-get($paddings, 'lg');
+
+// margins
+$margin-xs: map-get($margins, 'xs');
+$margin-sm: map-get($margins, 'sm');
+$margin-md: map-get($margins, 'md');
+$margin-lg: map-get($margins, 'lg');
