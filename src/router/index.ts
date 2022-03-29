@@ -8,6 +8,22 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView,
+      redirect: '/dental'
+    },
+    {
+      path: '/hospital',
+      name: 'hospital',
+      component: () => import('../views/Hospital.vue'),
+    },
+    {
+      path: '/primary-care',
+      name: 'primary-care',
+      component: () => import('../views/PrimaryCare.vue'),
+    },
+    {
+      path: '/dental',
+      name: 'dental',
+      component: () => import('../views/Dental.vue'),
     },
     {
       path: '/create',
